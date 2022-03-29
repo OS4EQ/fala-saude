@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script src="https://unpkg.com/@oseq/auma/dist/auma-decision-tree.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body>
+    <script>
+      auma({
+        id: "demo-decision-tree",
+        theme: {
+          logoUrl: "./image/logo.png",
+          buttonYesBgColor: "#6699cc",
+          buttonYesFgColor: "#6699cc",
+          buttonNoBgColor: "#77dd77",
+          buttonNoFgColor: "#77dd77",
+        },
+        welcome: {
+          audioUrl: "./audio/intro.mp3",
+        },
+        questions: [
+          {
+            id: "1",
+            audioUrl: "./audio/1.mp3",
+            imageUrl: "./image/1.jpg",
+            onYes: "question:3",
+            onNo: "question:2",
+          },
+          {
+            id: "2",
+            audioUrl: "./audio/2.mp3",
+            imageUrl: "./image/2.jpg",
+            onYes: "question:8",
+            onNo: "question:3",
+          },
+          {
+            id: "3",
+            audioUrl: "./audio/3.mp3",
+            imageUrl: "./image/3.jpg",
+            onYes: "question:5",
+            onNo: "question:6",
+          },
+          {
+            id: "4",
+            audioUrl: "./audio/4.mp3",
+            imageUrl: "./image/4.jpg",
+            onYes: "question:6",
+            onNo: "question:5",
+          },
+          {
+            id: "5",
+            audioUrl: "./audio/5.mp3",
+            imageUrl: "./image/5.jpg",
+            onYes: "question:8",
+            onNo: "question:7",
+          },
+          {
+            id: "6",
+            audioUrl: "./audio/6.mp3",
+            imageUrl: "./image/6.jpg",
+            onYes: "question:8",
+            onNo: "question:7",
+          },
+          {
+            id: "7",
+            audioUrl: "./audio/7.mp3",
+            imageUrl: "./image/7.jpg",
+            onYes: "question:8",
+            onNo: "question:6",
+          },
+          {
+            id: "8",
+            audioUrl: "./audio/8.mp3",
+            imageUrl: "./image/8.jpg",
+            onYes: "question:9",
+            onNo: "question:6",
+          },
+          {
+            id: "9",
+            audioUrl: "./audio/9.mp3",
+            imageUrl: "./image/9.jpg",
+            onYes: "question:8",
+            onNo: "result:outro",
+          },
+        ],
+        results: [
+          {
+            id: "outro",
+            audioUrl: "./audio/outro.mp3",
+            imageUrl: "./image/outro.jpg",
+          },
+        ],
+      });
+    </script>
+  </body>
+</html>

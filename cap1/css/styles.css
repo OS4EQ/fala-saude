@@ -1,0 +1,28 @@
+@media (max-width: 700px) {
+    .tree__image{
+      /* max-width: 20% !important; */
+      width: 30% !important;
+    }
+}
+.welcome{
+    justify-content: initial !important;
+    padding: 30px 0px !important;
+}
+
+
+.app__logo{
+    justify-content: center !important;
+    padding-bottom:20px;
+}
+.app__logo-img{
+    max-width: 30% !important;
+    max-height: 100px !important;
+}
+.tree__image{
+    width: 70% !important;
+    height: auto !important;
+    vertical-align: middle !important;
+}
+/* #buttonNoBgColor{
+    background-color: #a554b7 !important;
+}  */
