@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
-      <!-- Adio 20 has been treated as final audio as 21 is mssing -->
     <script>
       auma({
         id: "demo-decision-tree",
@@ -20,7 +19,7 @@
         welcome: {
           audioUrl: "",
         },
-        questions: [
+        questions: [ 
           {
             id: "1",
             audioUrl: "./audio/1.mp3",
@@ -32,7 +31,7 @@
             id: "2",
             audioUrl: "./audio/2.mp3",
             imageUrl: "./image/2.jpg",
-            onYes: "question:20",
+            onYes: "question:", // Finalize interacio(meaning?)
             onNo: "question:3",
           },
           {
@@ -46,38 +45,38 @@
             id: "4",
             audioUrl: "./audio/4.mp3",
             imageUrl: "./image/4.jpg",
-            onYes: "question:20",
+            onYes: "question:", // Finalize interacio(meaning?)
             onNo: "question:5",
           },
           {
             id: "5",
             audioUrl: "./audio/5.mp3",
             imageUrl: "./image/5.jpg",
-            onYes: "question:21",
-            onNo: "question:5",
+            onYes: "question:7",
+            onNo: "question:6",
           },
           {
             id: "6",
             audioUrl: "./audio/6.mp3",
             imageUrl: "./image/6.jpg",
-            onYes: "question:20",
-            onNo: "question:7",
+            onYes: "question:", // Finalize interacio(meaning?)
+            onNo: "question:7", 
           },
           {
             id: "7",
-            audioUrl: "./audio/7.mp3",
-            imageUrl: "./image/7.jpg",
-            onYes: "question:9",
-            onNo: "question:8",
+            audioUrl: "./audio/7.mp3",  
+            imageUrl: "./image/7.jpg", // no audios?
+            onYes: "question:",
+            onNo: "question:",
           },
           {
             id: "8",
             audioUrl: "./audio/8.mp3",
             imageUrl: "./image/8.jpg",
-            onYes: "question:20",
-            onNo: "question:3",
+            onYes: "question:", // Finalize interacio(meaning?)
+            onNo: "question:9",
           },
-          {
+          {  
             id: "9",
             audioUrl: "./audio/9.mp3",
             imageUrl: "./image/9.jpg",
@@ -88,22 +87,22 @@
             id: "10",
             audioUrl: "./audio/10.mp3",
             imageUrl: "./image/10.jpg",
-            onYes: "question:20",
+            onYes: "question:", // Finalize interacio?
             onNo: "question:11",
           },
           {
             id: "11",
             audioUrl: "./audio/11.mp3",
             imageUrl: "./image/11.jpg",
-            onYes: "question:13",
+            onYes: "question:13", 
             onNo: "question:12",
           },
           {
-            id: "12",
+            id: "12",  
             audioUrl: "./audio/12.mp3",
             imageUrl: "./image/12.jpg",
-            onYes: "question:20",
-            onNo: "question:3",
+            onYes: "question:", // Finalize interacio?
+            onNo: "question:13",
           },
           {
             id: "13",
@@ -116,7 +115,7 @@
             id: "14",
             audioUrl: "./audio/14.mp3",
             imageUrl: "./image/14.jpg",
-            onYes: "question:20",
+            onYes: "question:", // Finalize interacio?
             onNo: "question:15",
           },
           {
@@ -130,21 +129,21 @@
             id: "16",
             audioUrl: "./audio/16.mp3",
             imageUrl: "./image/16.jpg",
-            onYes: "question:20",
+            onYes: "question:",  // Finalize interacio?
             onNo: "question:17",
           },
           {
             id: "17",
             audioUrl: "./audio/17.mp3",
             imageUrl: "./image/17.jpg",
-            onYes: "question:20",
-            onNo: "question:19",
+            onYes: "question:19",
+            onNo: "question:18",
           },
           {
             id: "18",
             audioUrl: "./audio/18.mp3",
             imageUrl: "./image/18.jpg",
-            onYes: "question:20",
+            onYes: "question:",  // Finalize interacio?
             onNo: "question:19",
           },
           {
@@ -157,25 +156,26 @@
           {
             id: "20",
             audioUrl: "./audio/20.mp3",
-            imageUrl: "./image/20.jpg",
-            onYes: "question:20",
+            imageUrl: "./image/21.jpg",
+            onYes: "question:",  // Finalize interacio?
             onNo: "question:21",
           },
           {
             id: "21",
             audioUrl: "./audio/21.mp3",
             imageUrl: "./image/21.jpg",
-            onYes: "question:20",
+            onYes: "question:",  // Finalize interacio?
             onNo: "question:1",
           },
+         
         ],
-        results: [
-          {
-            id: "11",
-            audioUrl: "./audio/21.mp3",
-            imageUrl: "./image/21.jpg",
-          },
-        ],
+        // results: [
+        //   {
+        //     id: "11",
+        //     audioUrl: "./audio/21.mp3",
+        //     imageUrl: "./image/21.jpg",
+        //   },
+        // ],
       });
     </script>
   </body>
