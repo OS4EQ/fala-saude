@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script src="https://unpkg.com/@oseq/auma/dist/auma-decision-tree.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body>
+    <script>
+      auma({
+        id: "demo-decision-tree",
+        theme: {
+          logoUrl: "./image/logo.jpg",
+          buttonYesBgColor: "#6699cc",
+          buttonYesFgColor: "#ffffff",
+          buttonNoBgColor: "#77dd77",
+          buttonNoFgColor: "#ffffff",
+        },
+        welcome: {
+          audioUrl: "",
+        },
+        questions: [ 
+        {
+            id: "0",  //audio 0 doesnot exist in the audio files
+            audioUrl: "./audio/0.mp3",
+            imageUrl: "./image/0.jpg",
+            onYes: "question:2",
+            onNo: "question:1",
+          },
+          {
+            id: "1",
+            audioUrl: "./audio/1.mp3",
+            imageUrl: "./image/1.jpg",
+            onYes: "question:7",
+            onNo: "question:2",
+          },
+          {
+            id: "2",
+            audioUrl: "./audio/2.mp3",
+            imageUrl: "./image/2.jpg",
+            onYes: "question:7",
+            onNo: "question:3",
+          },
+          {
+            id: "3",
+            audioUrl: "./audio/3.mp3",
+            imageUrl: "./image/3.jpg",
+            onYes: "question:7",
+            onNo: "question:4",
+          },
+          {
+            id: "4",
+            audioUrl: "./audio/4.mp3",
+            imageUrl: "./image/4.jpg",
+            onYes: "question:6",
+            onNo: "question:5",
+          },
+          {
+            id: "5",
+            audioUrl: "./audio/5.mp3",
+            imageUrl: "./image/5.jpg",
+            onYes: "question:8",
+            onNo: "question:4",
+          },
+          {
+            id: "6",
+            audioUrl: "./audio/6.mp3",
+            imageUrl: "./image/6.jpg",
+            onYes: "question:10",
+            onNo: "question:4", 
+          },
+          // {
+          //   id: "7",
+          //   audioUrl: "./audio/7.mp3",  // 7 is missing in the slides
+          //   imageUrl: "./image/7.jpg",
+          //   onYes: "question:",
+          //   onNo: "question:",
+          // },
+          {
+            id: "8",
+            audioUrl: "./audio/8.mp3",
+            imageUrl: "./image/8.jpg",
+            onYes: "question:14",
+            onNo: "question:4",
+          },
+          // {  // 9 ismissing in the slides
+          //   id: "9",
+          //   audioUrl: "./audio/9.mp3",
+          //   imageUrl: "./image/9.jpg",
+          //   onYes: "question:",
+          //   onNo: "question:",
+          // },
+          {
+            id: "10",
+            audioUrl: "./audio/10.mp3",
+            imageUrl: "./image/10.jpg",
+            onYes: "question:11",
+            onNo: "question:14",
+          },
+          {
+            id: "11",
+            audioUrl: "./audio/11.mp3",
+            imageUrl: "./image/11.jpg",
+            onYes: "question:12",
+            onNo: "question:6",
+          },
+          {
+            id: "12",  //appears before 11 in the slides also 12 appears twice in the slides
+            audioUrl: "./audio/12.mp3",
+            imageUrl: "./image/12.jpg",
+            onYes: "question:4",
+            onNo: "question:8",
+          },
+          {
+            id: "13",
+            audioUrl: "./audio/13.mp3",
+            imageUrl: "./image/13.jpg",
+            onYes: "question:12",
+            onNo: "question:11",
+          },
+          {
+            id: "14",
+            audioUrl: "./audio/14.mp3",
+            imageUrl: "./image/14.jpg",
+            onYes: "question:12",
+            onNo: "question:11",
+          },
+         
+        ],
+        // results: [
+        //   {
+        //     id: "11",
+        //     audioUrl: "./audio/21.mp3",
+        //     imageUrl: "./image/21.jpg",
+        //   },
+        // ],
+      });
+    </script>
+  </body>
+</html>
