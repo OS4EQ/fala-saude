@@ -21,7 +21,7 @@
         },
         questions: [
         {
-            id: "0",
+            id: "0", //no audio 0 file 
             audioUrl: "./audio/0.mp3",
             imageUrl: "./image/0.jpg",
             onYes: "question:34",
@@ -67,7 +67,7 @@
             audioUrl: "./audio/6.mp3",
             imageUrl: "./image/6.jpg",
             onYes: "question:34",
-            onNo: "question:7", // regresa al initia = which audio could this be?
+            onNo: "question:", // regresa al initia = which audio could this be?
           },
           {
             id: "7",
@@ -360,17 +360,17 @@
             id: "48",
             audioUrl: "./audio/48.mp3",
             imageUrl: "./image/48.jpg",
-            onYes: "",  // novo modulp, no audio
+            onYes: "result:outro",  // novo modulp, no audio
             onNo: "question:1",
           },
         ],
-        // results: [
-        //   {
-        //     id: "11",
-        //     audioUrl: "./audio/21.mp3",
-        //     imageUrl: "./image/21.jpg",
-        //   },
-        // ],
+        results: [
+          {
+            id: "outro",
+            audioUrl: "./audio/outro.mp3",
+            imageUrl: "./image/outro.jpg",
+          },
+        ],
       });
     </script>
   </body>
