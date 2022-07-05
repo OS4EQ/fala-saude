@@ -7,3 +7,6 @@ The Fala Saúde web app will help increase leprosy detection by providing access
 Fala Saúde is based on the [AUMA](https://github.com/OSEQorg/auma.js) framework.
 
 You can check out the web app at [https://oseqorg.github.io/fala-saude/](https://oseqorg.github.io/fala-saude/)
+
+![Copy of OSEQorg](https://user-images.githubusercontent.com/32398058/177327580-8157944e-15d4-4c3d-a896-d109257d2591.jpg)
+
