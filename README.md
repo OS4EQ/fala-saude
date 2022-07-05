@@ -6,7 +6,7 @@ The Fala Saúde web app will help increase leprosy detection by providing access
 
 Dala Saúde consists of 13 chapters dealing with the following topics: "skin cancer", "knowing our skin", "skin care", "wound care", "differentiated diagnosis", "stigma and discrimination", "complementary exams", "leprosy", "physical disabilities", "leishmaniasis", "myths and beliefs", "psoriasis", "routes towards health", "signs and symptoms" and "vitiligo". All contents have been developed by experts in their fields.
 
-Fala Saúde is based on the [AUMA](https://github.com/OSEQorg/auma.js) framework.
+Fala Saúde is based on the [AUMA](https://github.com/OSEQorg/auma.js) framework. 
 
 You can check out the web app at [https://oseqorg.github.io/fala-saude/](https://oseqorg.github.io/fala-saude/)
 
