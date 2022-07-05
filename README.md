@@ -8,7 +8,7 @@ Fala Saúde consists of 13 chapters dealing with the following topics: "skin can
 
 Fala Saúde is based on the [AUMA](https://github.com/OSEQorg/auma.js) framework. AUMA (Augmented audio) is an open source framework that provides illustrated and interactive audio content. Auma’s lightweight and accessible design allows it to offer eLearning to marginalized, often illiterate populations with limited access to technology. It runs both on smartphones and smart feature phones. For more information [click here](https://github.com/OSEQorg/auma.js).
 
-You can check out the web app at [https://oseqorg.github.io/fala-saude/](https://oseqorg.github.io/fala-saude/)
+You can check out the Fala Saúde web app at [https://oseqorg.github.io/fala-saude/](https://oseqorg.github.io/fala-saude/)
 
 ![Copy of OSEQorg](https://user-images.githubusercontent.com/32398058/177327580-8157944e-15d4-4c3d-a896-d109257d2591.jpg)
 
