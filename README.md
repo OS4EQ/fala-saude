@@ -6,7 +6,7 @@ The Fala Saúde web app will help increase leprosy detection by providing access
 
 Fala Saúde consists of 13 chapters dealing with the following topics: "skin cancer", "knowing our skin", "skin care", "wound care", "differentiated diagnosis", "stigma and discrimination", "complementary exams", "leprosy", "physical disabilities", "leishmaniasis", "myths and beliefs", "psoriasis", "routes towards health", "signs and symptoms" and "vitiligo". All contents have been developed by experts in their fields.
 
-Fala Saúde is based on the [AUMA](https://github.com/OSEQorg/auma.js) framework. 
+Fala Saúde is based on the [AUMA](https://github.com/OSEQorg/auma.js) framework. AUMA (Augmented audio) is an open source framework that provides illustrated and interactive audio content. Auma’s lightweight and accessible design allows it to offer eLearning to marginalized, often illiterate populations with limited access to technology. It runs both on smartphones and smart feature phones. For more information [click here](https://github.com/OSEQorg/auma.js).
 
 You can check out the web app at [https://oseqorg.github.io/fala-saude/](https://oseqorg.github.io/fala-saude/)
 
