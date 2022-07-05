@@ -4,7 +4,7 @@ Fala Saúde ("Speak Health") is a web application built for [DAHW Brazil](https:
 
 The Fala Saúde web app will help increase leprosy detection by providing accessible capacity building to rural health workers. Leprosy underreporting can occur for many reasons, including lack of knowledge or capacity of healthcare services or health professionals to diagnose and register new disease cases and lack of or resource limitations in regional and local leprosy control programmes.
 
-Dala Saúde consists of 13 chapters dealing with the following topics: "skin cancer", "knowing our skin", "skin care", "wound care", "differentiated diagnosis", "stigma and discrimination", "complementary exams", "leprosy", "physical disabilities", "leishmaniasis", "myths and beliefs", "psoriasis", "routes towards health", "signs and symptoms" and "vitiligo". All contents have been developed by experts in their fields.
+Fala Saúde consists of 13 chapters dealing with the following topics: "skin cancer", "knowing our skin", "skin care", "wound care", "differentiated diagnosis", "stigma and discrimination", "complementary exams", "leprosy", "physical disabilities", "leishmaniasis", "myths and beliefs", "psoriasis", "routes towards health", "signs and symptoms" and "vitiligo". All contents have been developed by experts in their fields.
 
 Fala Saúde is based on the [AUMA](https://github.com/OSEQorg/auma.js) framework. 
 
